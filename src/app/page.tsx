@@ -149,7 +149,7 @@ export default function HomePage() {
             icon: <Target className="w-3.5 h-3.5 text-emerald-600" />,
             bg: "bg-emerald-50 border-emerald-100",
             headline: "North star: +15 pp re-apply rate",
-            body: "Target: 15 pp above unassisted control. Conservative model: ~₹36–79 Cr/yr incremental disbursement.",
+            body: "Target: 15 pp above unassisted control. Conservative model: ~₹17–59 Cr/yr incremental disbursement (conservative to base scenario)",
           },
         ].map((s, i) => (
           <div key={i} className={cn("flex items-start gap-2 border rounded-xl px-3 py-2.5 text-xs", s.bg)}>
